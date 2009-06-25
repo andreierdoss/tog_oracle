@@ -3,7 +3,7 @@ rake "gems:install", :sudo => true
 
 plugin 'only_owner', :git => "git://github.com/balinterdi/only_owner.git"
 
-plugin 'tog_oracle', :git => "git://github.com/tog/tog_oracle.git"
+plugin 'tog_oracle', :git => "git://github.com/cauta/tog_oracle.git"
 
 route "map.routes_from_plugin 'tog_oracle'"
 
